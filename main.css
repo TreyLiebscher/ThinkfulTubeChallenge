@@ -79,7 +79,6 @@ a:visited {
 .js-result-container {
     border: 2px solid lightgray;
     border-radius: 20px;
-    height: 231px;
     text-align: center;
     position: inline;
 }
@@ -90,8 +89,8 @@ form {
     width: 50%;
     height: 50px;
     position: fixed;
-    left: 40%;
-    top: 3%;
+    margin-left: 40px;
+    top: 15%;
     background-color: rgba(179, 179, 181, 0.5);
     text-align: center;
     padding: 10px;
@@ -103,7 +102,7 @@ form {
 
 .js-search-results {
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 10%;
     right: 10%;
 }

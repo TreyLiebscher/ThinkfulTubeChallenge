@@ -51,6 +51,15 @@ h1 {
     font-size: 16px;
 }
 
+.js-search-form {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 50%;
+    background-color: rgba(179, 179, 181, 0.5);
+    padding: 10px;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 640px) {
     .col-3 {
         width: 25%;
@@ -67,6 +76,15 @@ h1 {
     }
     h1 {
         font-size: 30px;
+    }
+    .js-search-form {
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        width: 50%;
+        height: 50px;
+        background-color: rgba(179, 179, 181, 0.5);
+        padding: 10px;
+        margin: 0 auto;
     }
 }
 
@@ -102,16 +120,6 @@ a:visited {
     border: 2px solid lightgray;
     border-radius: 20px;
     text-align: center;
-}
-
-.js-search-form {
-    border: 1px solid lightgray;
-    border-radius: 20px;
-    width: 50%;
-    height: 50px;
-    background-color: rgba(179, 179, 181, 0.5);
-    padding: 10px;
-    margin: 0 auto;
 }
 
 .js-query {

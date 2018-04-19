@@ -61,6 +61,7 @@ h1 {
     position: fixed;
     color: gray;
     margin-left: 40px;
+    z-index: 1;
 }
 
 a {
@@ -94,6 +95,7 @@ form {
     background-color: rgba(179, 179, 181, 0.5);
     text-align: center;
     padding: 10px;
+    z-index: 1;
 }
 
 .js-query {

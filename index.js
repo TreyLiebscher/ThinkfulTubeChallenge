@@ -20,7 +20,7 @@ function renderResult(result) {
       <p>
       uploaded by <a class="js-user-name" href="https://www.youtube.com/user/${result.snippet.channelId}" target="_blank">${result.snippet.channelTitle}</a>
       </p>
-    <a href="https://www.youtube.com/watch?v=${result.id.videoId}" target="_blank">
+        <a href="https://www.youtube.com/watch?v=${result.id.videoId}" target="_blank">
       <img src="${result.snippet.thumbnails.default.url}">
     </a>
     </div>

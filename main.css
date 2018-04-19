@@ -57,11 +57,18 @@ main {
     }
 }
 
-h1 {
-    position: fixed;
-    color: gray;
-    margin-left: 40px;
+.searchContainer {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
     z-index: 1;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+h1 {
+    color: gray;
 }
 
 a {
@@ -84,18 +91,14 @@ a:visited {
     position: inline;
 }
 
-form {
+.js-search-form {
     border: 1px solid lightgray;
     border-radius: 20px;
     width: 50%;
     height: 50px;
-    position: fixed;
-    margin-left: 40px;
-    top: 15%;
     background-color: rgba(179, 179, 181, 0.5);
-    text-align: center;
     padding: 10px;
-    z-index: 1;
+    margin: 0 auto;
 }
 
 .js-query {

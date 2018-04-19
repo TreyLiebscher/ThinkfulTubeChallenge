@@ -4,7 +4,7 @@ function getYoutubeAPIData(searchTerm, callback) {
     const query = {
         'maxResults': '25',
         'part': 'snippet',
-        'q': `${searchTerm} in:name`,
+        'q': `${searchTerm} in:title`,
         'type': '',
         key: 'AIzaSyCupOr5yMar9NAYa9Q9ekak_ewMFmsvru4'
     }
